@@ -1,0 +1,4 @@
+usr/lib/syslinux/chain.c32 usr/share/syslinux/themes/ubuntu-raring/isolinux-live/chain.c32
+usr/lib/syslinux/gfxboot.c32 usr/share/syslinux/themes/ubuntu-raring/isolinux-live/gfxboot.c32
+usr/lib/syslinux/isolinux.bin usr/share/syslinux/themes/ubuntu-raring/isolinux-live/isolinux.bin
+usr/lib/syslinux/vesamenu.c32 usr/share/syslinux/themes/ubuntu-raring/isolinux-live/vesamenu.c32

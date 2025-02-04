@@ -1,89 +1,29 @@
-Source: syslinux-themes-ubuntu
+Source: syslinux-themes-linuxbean
 Section: misc
 Priority: optional
-Maintainer: Colin Watson <cjwatson@ubuntu.com>
+Maintainer: Ryo Nakano <ryonakaknock3@gmail.com>
 Build-Depends: debhelper (>= 8)
 Standards-Version: 3.9.2
 
-Package: syslinux-themes-ubuntu
+Package: syslinux-themes-linuxbean
 Architecture: amd64 i386
-Depends: ${misc:Depends}, syslinux-themes-ubuntu-trusty
+Depends: ${misc:Depends}, syslinux-themes-linuxbean-triforium
 Description: collection of boot loaders (theme metapackage)
  SYSLINUX is a collection of boot loaders which operates off Linux ext2/3/4 or
  btrfs filesystems, MS-DOS FAT filesystems, network servers using PXE firmware,
  or from CD-ROMs.
  .
  This package depends on the package with the graphical bootloader theme
- for the matching Ubuntu release.
+ for the matching linuxBean release.
 
-Package: syslinux-themes-ubuntu-oneiric
+Package: syslinux-themes-linuxbean-triforium
 Architecture: amd64 i386
 Depends: ${misc:Depends}, memtest86+, syslinux-common
 Enhances: extlinux
 Provides: syslinux-theme
-Description: collection of boot loaders (ubuntu-oneiric theme)
+Description: collection of boot loaders (linuxbean-triforium theme)
  SYSLINUX is a collection of boot loaders which operates off Linux ext2/3/4 or
  btrfs filesystems, MS-DOS FAT filesystems, network servers using PXE firmware,
  or from CD-ROMs.
  .
- This package contains the graphical bootloader theme for Ubuntu oneiric.
-
-Package: syslinux-themes-ubuntu-precise
-Architecture: amd64 i386
-Depends: ${misc:Depends}, memtest86+, syslinux-common
-Enhances: extlinux
-Provides: syslinux-theme
-Description: collection of boot loaders (ubuntu-precise theme)
- SYSLINUX is a collection of boot loaders which operates off Linux ext2/3/4 or
- btrfs filesystems, MS-DOS FAT filesystems, network servers using PXE firmware,
- or from CD-ROMs.
- .
- This package contains the graphical bootloader theme for Ubuntu precise.
-
-Package: syslinux-themes-ubuntu-quantal
-Architecture: amd64 i386
-Depends: ${misc:Depends}, memtest86+, syslinux-common
-Enhances: extlinux
-Provides: syslinux-theme
-Description: collection of boot loaders (ubuntu-quantal theme)
- SYSLINUX is a collection of boot loaders which operates off Linux ext2/3/4 or
- btrfs filesystems, MS-DOS FAT filesystems, network servers using PXE firmware,
- or from CD-ROMs.
- .
- This package contains the graphical bootloader theme for Ubuntu quantal.
-
-Package: syslinux-themes-ubuntu-raring
-Architecture: amd64 i386
-Depends: ${misc:Depends}, memtest86+, syslinux-common
-Enhances: extlinux
-Provides: syslinux-theme
-Description: collection of boot loaders (ubuntu-raring theme)
- SYSLINUX is a collection of boot loaders which operates off Linux ext2/3/4 or
- btrfs filesystems, MS-DOS FAT filesystems, network servers using PXE firmware,
- or from CD-ROMs.
- .
- This package contains the graphical bootloader theme for Ubuntu raring.
-
-Package: syslinux-themes-ubuntu-saucy
-Architecture: amd64 i386
-Depends: ${misc:Depends}, memtest86+, syslinux-common
-Enhances: extlinux
-Provides: syslinux-theme
-Description: collection of boot loaders (ubuntu-saucy theme)
- SYSLINUX is a collection of boot loaders which operates off Linux ext2/3/4 or
- btrfs filesystems, MS-DOS FAT filesystems, network servers using PXE firmware,
- or from CD-ROMs.
- .
- This package contains the graphical bootloader theme for Ubuntu saucy.
-
-Package: syslinux-themes-ubuntu-trusty
-Architecture: amd64 i386
-Depends: ${misc:Depends}, memtest86+, syslinux-common
-Enhances: extlinux
-Provides: syslinux-theme
-Description: collection of boot loaders (ubuntu-trusty theme)
- SYSLINUX is a collection of boot loaders which operates off Linux ext2/3/4 or
- btrfs filesystems, MS-DOS FAT filesystems, network servers using PXE firmware,
- or from CD-ROMs.
- .
- This package contains the graphical bootloader theme for Ubuntu trusty.
+ This package contains the graphical bootloader theme for linuxBean Triforium.

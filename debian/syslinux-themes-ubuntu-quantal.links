@@ -1,4 +1,0 @@
-usr/lib/syslinux/chain.c32 usr/share/syslinux/themes/ubuntu-quantal/isolinux-live/chain.c32
-usr/lib/syslinux/gfxboot.c32 usr/share/syslinux/themes/ubuntu-quantal/isolinux-live/gfxboot.c32
-usr/lib/syslinux/isolinux.bin usr/share/syslinux/themes/ubuntu-quantal/isolinux-live/isolinux.bin
-usr/lib/syslinux/vesamenu.c32 usr/share/syslinux/themes/ubuntu-quantal/isolinux-live/vesamenu.c32
